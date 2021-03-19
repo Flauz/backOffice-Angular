@@ -9,13 +9,15 @@ import { AddOrEditProductModalComponent } from './components/add-or-edit-product
 import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import { ShowProductComponent } from './components/show-product/show-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DeleteProductModalComponent,
-    AddOrEditProductModalComponent
+    AddOrEditProductModalComponent,
+    ShowProductComponent
   ],
   imports: [
     BrowserModule,
